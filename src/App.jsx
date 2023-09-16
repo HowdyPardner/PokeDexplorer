@@ -60,10 +60,9 @@ function App() {
   return (
     <div>
       {
-        <div>
+        <div className='pokemon-container'>
           {mergedPokemonData.map((pokemon) => (
-            <div className='pokemon-container' key={pokemon.id}>
-              <div className='pokemon-card'>
+              <div className='pokemon-card' key={pokemon.id}>
                 <h1>{pokemon.name}</h1>
                 <h1>{pokemon.id}</h1>
                 <img
@@ -72,7 +71,6 @@ function App() {
                   style={{ maxWidth: '100px' }}
                 />
               </div>
-            </div>
           ))}
         </div>
       }
