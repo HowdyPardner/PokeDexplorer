@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios';
+import Navbar from './components/Navbar';
 
 function App() {
   const [pokemonArray, setPokemonArray] = useState([]); // state to track initial pokemon data
@@ -58,7 +59,10 @@ function App() {
   console.log(mergedPokemonData)
 
   return (
-    <div>
+    <>
+     <div className='app'>
+      
+    <Navbar/>
       {
         <div className='pokemon-container'>
           {mergedPokemonData.map((pokemon) => (
@@ -75,6 +79,8 @@ function App() {
         </div>
       }
     </div>
+    </>
+   
   );
 }
 
