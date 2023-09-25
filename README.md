@@ -1,8 +1,12 @@
-# React + Vite
+# Still in progress
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A personal project of mine where I am replicating a UI design I found on Dribble, using React JS.
 
-Currently, two official plugins are available:
+## WebApp Img
+[Dribble Link](dribbble.com/shots/15128634-Pokemon-Pokedex-Website-Redesign-Concept)<br></br>
+<img src="https://imgur.com/2It5sNi.png" alt="Description" width="400" height="300">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Component Outline
+
+<img src="https://imgur.com/i4KhF9c.png" alt="Description" width="400" height="300">
